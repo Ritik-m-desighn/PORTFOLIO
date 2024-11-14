@@ -19,12 +19,22 @@ nav {
 
 /* Styling for logo */
 .logo {
-
     color: #ecf0f1; /* Light grey for logo */
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 2px; /* Adds space between letters */
     text-transform: uppercase; /* Makes the logo uppercase */
+  
+}
+.container img{
+    border-radius: 50%;
+    width: 200px;
+    
+}
+.container img:hover{
+    width: 200px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Navigation links list */

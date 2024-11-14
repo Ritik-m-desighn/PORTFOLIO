@@ -1,0 +1,92 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* About Me and Skills Container */
+#about, #skills, #contact {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph styling */
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Skills List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    background: #3498db;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #2980b9;
+}
+
+/* Contact Button Styling */
+#contact button {
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #2980b9;
+}
+
+#contact button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    body, #about, #skills, #contact {
+        padding: 1.5rem;
+    }
+}
