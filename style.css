@@ -19,12 +19,7 @@ nav {
 
 /* Styling for logo */
 .logo {
-    color: #ecf0f1; /* Light grey for logo */
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 2px; /* Adds space between letters */
-    text-transform: uppercase; /* Makes the logo uppercase */
-  
+   height: 50px;
 }
 .container img{
     border-radius: 50%;
@@ -133,7 +128,7 @@ main {
 
 .project-item img {
     width: 100%;
-    height: auto;
+    height:auto;
     border-radius: 8px;
 }
 
